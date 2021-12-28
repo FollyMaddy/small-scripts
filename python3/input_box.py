@@ -24,7 +24,8 @@ passw_var=tk.StringVar()
   
 # defining a function that will
 # get the name and password and
-# print them on the screen
+# if they contain values, print them on the screen and quit the script 
+# else, aks to insert the values once more
 def submit():
  
     name=name_var.get()
