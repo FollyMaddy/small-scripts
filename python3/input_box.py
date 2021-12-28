@@ -22,10 +22,9 @@ name_var=tk.StringVar()
 passw_var=tk.StringVar()
  
   
-# defining a function that will
-# get the name and password and
-# if they contain values, print them on the screen and quit the script 
-# else, aks to insert the values once more
+# defining a function that will get the name and password
+# if the variables contain not enough content then aks to insert the values once more
+# else, print them on the screen, execute a bash command and quit the script 
 def submit():
  
     name=name_var.get()
